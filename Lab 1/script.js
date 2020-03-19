@@ -50,9 +50,9 @@ function showPosition(position){
 
 function getLocation(){
   if(navigator.geolocation){
-    // timeout at 60000 milliseconds (10 seconds)
+    
     navigator.geolocation.getCurrentPosition(showPosition);
-    //(showLocation, errorHandler, options);
+    
     
  } else{
     alert("Sorry, browser does not support geolocation!");
